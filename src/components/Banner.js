@@ -34,7 +34,7 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p> {state.text}</p>
                 <div className="header__button">
-                    <a href="" className="btn btn-outline">Resume
+                    <a href="https://drive.google.com/file/d/1XmOsVMZJI8GZyTgSZL846BFmDA_OA0Ms/view?usp=drivesdk" className="btn btn-outline">Resume
                     </a>
                     
                     

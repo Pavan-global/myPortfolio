@@ -1,11 +1,7 @@
 import React from "react";
 import {
   FaGithub,
-  FaCamera,
-  FaCircleNotch,
-  FaApple,
-  FaFileVideo,
-  FaSearchDollar,
+ 
 } from "react-icons/fa";
 const Projects = () => {
   const [header] = React.useState({
@@ -28,8 +24,7 @@ const Projects = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "Infinity",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A website for our college fest INFINITY.This manages the registration process and details of contest",
         url:"https://github.com/pavangv28/infinity"
     },
     {
@@ -37,8 +32,7 @@ const Projects = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "Outplacement Heros",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A project done during internship with Outplacementheros, this is a generally a job searching platform",
         url:"https://github.com/pavangv28/OutplacementHeros"
     },
     {
@@ -46,8 +40,7 @@ const Projects = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "Jaljeevika",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Website done during internship with Jaljeevika. This is an e-course platform for farmers",
         url:"https://github.com/pavangv28"
     },
     {
@@ -55,8 +48,7 @@ const Projects = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "AGV28-Chatapp",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "It is an android application written in Java with real-time databaseconnection using firebase .",
         url:"https://github.com/pavangv28/AGV28-chatapp"
     },
     {
@@ -64,8 +56,7 @@ const Projects = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "AlUmni web",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "A website to maintain the connectivity between Alumni and College. This allows alumni to register amke their profile",
         url:"https://github.com/pavangv28/AlumniCSE"
     },
   ]);

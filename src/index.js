@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-import {Link,BrowserRouter as Router,Switch,Route} from "react-router-dom";
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    
     <App />
-    </Router>
+  
    
 
   </React.StrictMode>,

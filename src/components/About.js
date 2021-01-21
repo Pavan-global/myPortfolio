@@ -1,5 +1,4 @@
 import React from 'react'
-import App from '../App';
 const About = () => {
     const [state]=React.useState({mainHeading:"About Me"
 });
@@ -12,43 +11,7 @@ const [info]=React.useState([
 ]);
     return (
       
-       /* <div className="about">
-            <div className="container">
-            <div className="common">
-                <div className="mainheading">
-                <h1>{state.mainHeading}</h1>
-                </div>
-                <div className="commonBorder"></div>
-            </div> 
-            <div className="row h650 alignCenter">
-                <div className="col-6">
-                    <div className="aboutcontent">
-                        <h1>Hi There,</h1>
-                        <p>
-                            
-                        </p>
-                    </div>
-
-                </div>
-                <div className="col-6">
-                    
-                    <div className="aboutdetails">
-                    <div className="row">
-                        {info.map(info=>(
-                            <div className="col-6">
-                            <strong>{info.title}</strong>
-                            <p>{info.text}</p>
-                            </div>
-                        ))}
-                    </div>
-                    </div>
-                </div>
-            </div> 
-            </div>              
-
-
-            
-        </div>*/
+      
         <div className="about" id="About">
       <div className="container">
         <div className="common">
